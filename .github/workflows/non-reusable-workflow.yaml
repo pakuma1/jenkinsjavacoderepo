@@ -10,6 +10,6 @@ on:
 
 jobs:
   call-reusable:
-    uses: ./.github/workflows/resusable-workflow.yaml
+    uses: ./.github/workflows/reusable-workflow.yaml
     with:
       environment: ${{ inputs.environment }}
